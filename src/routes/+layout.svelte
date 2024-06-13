@@ -1,11 +1,8 @@
 <script lang="ts">
 	import '../app.css';
-
-	// 画面全体の最大幅を決める
-	const width = 1448;
 </script>
 
-<div class={`max-w-[${width}px] boxx`} style="margin: 0 auto;">
+<div class="max-w-[1440px] boxx">
 	<slot />
 </div>
 
