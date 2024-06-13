@@ -7,7 +7,7 @@ export default {
 				color1: '#004CA0',
 				color2: '#C0E4FF',
 				color3: '#B78F00',
-				textcolorA: '#0F0101',
+				textColor: '#0F0101',
 				linkColor: '#00B2FF',
 				backgroundColor: '#FFFFFF'
 			},
