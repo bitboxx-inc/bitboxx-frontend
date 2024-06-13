@@ -3,10 +3,17 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
+			colors: {
+				color1: '#004CA0',
+				color2: '#C0E4FF',
+				color3: '#B78F00',
+				textcolorA: '#0F0101',
+				linkColor: '#00B2FF',
+				backgroundColor: '#FFFFFF'
+			},
 			fontFamily: {
-				sans: ['Helvetica', 'Arial', 'sans-serif'],
-				serif: ['Georgia', 'serif'],
-				mono: ['Courier New', 'monospace']
+				en: ['Spartan', 'sans-serif'],
+				jp: ['Noto Sans JP', 'sans-serif']
 			},
 			fontSize: {
 				xs: '.75rem',
